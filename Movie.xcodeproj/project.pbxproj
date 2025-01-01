@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6D33E6FB2D25170E00C64D42 /* Movie */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Movie;
-			sourceTree = "<group>";
-		};
-		6D33E70C2D25170F00C64D42 /* MovieTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieTests;
-			sourceTree = "<group>";
-		};
-		6D33E7162D25170F00C64D42 /* MovieUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieUITests;
-			sourceTree = "<group>";
-		};
+		6D33E6FB2D25170E00C64D42 /* Movie */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Movie; sourceTree = "<group>"; };
+		6D33E70C2D25170F00C64D42 /* MovieTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MovieTests; sourceTree = "<group>"; };
+		6D33E7162D25170F00C64D42 /* MovieUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MovieUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = 6D33E6F42D25170E00C64D42 /* Build configuration list for PBXProject "Movie" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = 6D33E6F02D25170E00C64D42;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 6D33E6FA2D25170E00C64D42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
