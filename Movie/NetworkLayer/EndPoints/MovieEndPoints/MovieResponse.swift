@@ -32,10 +32,10 @@ extension MovieResponse {
 extension MovieResponse.Movie {
     func toDisplayMovieModel() -> DisplayMovieModel {
         .init(
-            title: title ?? "-",
+            title: originalTitle ?? "-",
             overview: overview ?? "-",
             languages: originalLanguage ?? "-",
-            posterURL: .init(string: posterPath ?? "https://via.placeholder.com/200x300")!
+            posterURL: .init(string: "https://image.tmdb.org/t/p/w300\(posterPath ?? "")")!
         )
     }
 }

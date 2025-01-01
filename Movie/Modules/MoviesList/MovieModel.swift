@@ -24,7 +24,7 @@ extension DisplayMovieModel {
             title: "Example Title",
             overview: "Example Overview",
             languages: "Example Languages",
-            posterURL: URL(string: "https://example.com/poster.jpg")!
+            posterURL: URL(string: "https://image.tmdb.org/t/p/w300/2YGejZlPnvMHbtZfMyfwaelVOeF.jpg")!
         )
     }
 }
