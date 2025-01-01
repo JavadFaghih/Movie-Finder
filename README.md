@@ -16,7 +16,7 @@ This SwiftUI project is a simple movie list application that showcases movie det
 
 ## Testing
 
-The project includes unit tests for the `MovieModel`, `MovieRow`, and the search functionality.
+The project includes unit tests MovieEndPoints.
 
 ### Running Tests
 
